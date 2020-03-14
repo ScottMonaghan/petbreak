@@ -1,0 +1,29 @@
+PetBreak 1.0 is ready! 
+
+PetBreak is a little P button in your Chrome toolbar that will hide all non-pet Twitter posts when you need a break. Click again to return to "normal".
+
+How to get it in thread...
+
+It's been submitted to the Google Chrome Store, but that can take weeks.
+
+If you want to try it out now, here's what you can do:
+
+First, you can review all the code at http://github.com/scottmonaghan/petbreak
+
+To download and go right away take these steps...
+
+Download petbreak.zip here and save it somewhere you remember: https://github.com/ScottMonaghan/petbreak/raw/master/petbreak.zip
+
+Next go to chrome://extensions/ in your browser and turn on Developer Mode.
+
+Next unzip the petbreak.zip you downloaded.
+
+Then click "Load Unpacked" on the Chrome extensions tab.
+
+Select the folder where you unzipped http://petbreak.zip
+
+Now you should be good to go! Just press the 'P' in your toolbar you the Twitter homepage to remove all non-dog/cat/pet tweets.
+
+Click again to return to "Normal"
+
+Please report any bugs at https://github.com/scottmonaghan/petbreak/issues
