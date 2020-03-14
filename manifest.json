@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Pet Break!",
+  "description": "Hides all non-pet posts when you need a break on Twitter. Just click the P button!",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": ["*://*.twitter.com/*"],
+    "js": ["content.js"]
+  }],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action":{
+  },
+  "permissions": [
+  "tabs",
+  "storage"
+	]
+}
