@@ -2,7 +2,7 @@
 //alert("Hello from your Chrome extension!")
 petbreak = function(){
 	//console.log('petbreak!');
-	if (petbreakEnabled){
+	if (window.location.href.match(/twitter.com\/home/i) && petbreakEnabled){
 		var petTweets = [];
 		articles = document.querySelectorAll('article:not(.not_pets), article:not(.pets)');
 		articles.forEach(
