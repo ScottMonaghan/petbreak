@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Pet Break!",
   "description": "Hides all non-pet posts when you need a break on witter. Just click the P button!",
-  "version": "0.1",
+  "version": "0.1.2",
   "content_scripts": [
   {
     "matches": ["*://*.twitter.com/*"],
